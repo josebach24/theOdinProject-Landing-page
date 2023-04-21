@@ -1,0 +1,145 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.top-header {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content-header {
+    padding: 50px 100px 100px 100px;
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content-header p {
+    max-width: 700px;
+}
+
+.content-header h1 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.content-header button {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+
+
+}
+
+.content-header img {
+    position: absolute;
+    left: 850px;
+    top: 100px;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+
+}
+
+li a {
+    max-width: 150px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+
+.content-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 52px;
+
+}
+
+.content-2 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    margin: 0 auto;
+    padding: 100px 150px 150px 150px;
+    margin-bottom: 0;
+    font-weight: 300;
+
+}
+
+.by {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    padding-top: 0;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #3882f6;
+    margin: 100px 200px 100px 200px;
+    padding: 30px 50px 30px 50px;
+    color: #f9faf8;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer div {
+    display: flex;
+    flex: 1;
+}
+
+#footer-button {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    display: flex;
+    align-self: flex-end;
+}
